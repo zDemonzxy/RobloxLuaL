@@ -1,13 +1,5 @@
 -- NpcAI
--- put this in ServerScriptService as a normal Script, it runs on its own (no modules needed)
--- any humanoid rig in workspace tagged "Npc" gets picked up
--- they patrol, get suspicious when they see you, investigate, chase you with pathfinding, hit you, and call nearby npcs over
--- clients dont control anything here, they only see the npc move + the AiState / Suspicion attributes
---
--- optional attributes on the npc model:
---   Archetype   = "Grunt" or "Brute"
---   PatrolRoute = name of a folder in workspace.PatrolRoutes with parts named 1, 2, 3...
--- the HumanoidRootPart has to be unanchored so the server can own it
+
 
 --// Services
 local CollectionService = game:GetService("CollectionService")

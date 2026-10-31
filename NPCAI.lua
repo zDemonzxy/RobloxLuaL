@@ -1,6 +1,4 @@
 -- NpcAI
-
-
 --// Services
 local CollectionService = game:GetService("CollectionService")
 local PathfindingService = game:GetService("PathfindingService")
